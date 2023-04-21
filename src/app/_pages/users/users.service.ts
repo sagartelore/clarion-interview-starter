@@ -5,7 +5,7 @@ import { map } from 'rxjs/operators';
 import { User } from '@app/_state/users/users-store';
 
 @Injectable({
-  providedIn: 'root',
+  providedIn: 'root'
 })
 export class UserService {
   private serviceUrl = 'https://dummyjson.com/users';
